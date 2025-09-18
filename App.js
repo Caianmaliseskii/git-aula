@@ -28,7 +28,7 @@ export default function App() {
             },
           }}
         >
-          <Stack.Screen 
+          <Stack.Screen
             name="Login" 
             component={LoginScreen} 
             options={{ title: 'Login' }}
