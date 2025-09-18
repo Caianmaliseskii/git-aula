@@ -5,7 +5,6 @@ import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import ResetPasswordScreen from './screens/ResetPasswordScreen';
 
-// Import required for React Navigation with Expo
 import 'react-native-gesture-handler';
 
 const Stack = createStackNavigator();

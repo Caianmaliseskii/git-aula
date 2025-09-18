@@ -6,13 +6,11 @@ const LoginScreen = ({ navigation }) => {
   const [password, setPassword] = React.useState('');
 
   const handleLogin = () => {
-    // Simple validation
     if (!email || !password) {
       Alert.alert('Erro', 'Por favor, preencha todos os campos');
       return;
     }
     
-    // Simulate login success
     Alert.alert('Sucesso', 'Login realizado com sucesso!');
   };
 

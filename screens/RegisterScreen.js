@@ -12,7 +12,6 @@ const RegisterScreen = ({ navigation }) => {
   const handleRegister = () => {
     if (!isFormValid) return;
     
-    // Simulate registration success
     Alert.alert(
       'Sucesso',
       'Usuário registrado com sucesso',

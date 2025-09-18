@@ -9,12 +9,10 @@ const ResetPasswordScreen = ({ navigation }) => {
   const handleResetPassword = () => {
     if (password !== confirmPassword) {
       Alert.alert('Erro', 'Senhas não são iguais');
-      // Return focus to the first password field
       passwordInputRef.current?.focus();
       return;
     }
     
-    // Simulate password reset success
     Alert.alert(
       'Sucesso',
       'Senha redefinida com sucesso',
