@@ -1,0 +1,73 @@
+Resumo Detalhado do Desafio de Desenvolvimento (React Native/Mobile)
+O objetivo é praticar o uso de estado, inputs, navegação e validação de formulários em um único aplicativo, implementando duas novas telas: Cadastro de Usuário e Redefinição de Senha. A navegação deve ser gerenciada utilizando o 
+
+react-navigation.
+
+
+1. Requisitos da Tela de Cadastro de Usuário 
+
+
+Propósito: Registrar novos usuários no aplicativo.
+
+Campos Requeridos (Inputs):
+
+
+CPF 
+
+
+
+Nome 
+
+
+
+Email 
+
+
+
+Senha 
+
+
+Funcionalidades e Validações:
+
+
+Habilitação do Botão "Salvar": O botão só deve ser habilitado e clicável se todos os quatro campos estiverem preenchidos.
+
+
+
+Retorno ao Login: O usuário deve ter a opção de retornar à tela de login a qualquer momento (Botão "Voltar para Login").
+
+
+
+Ação de Sucesso: Ao clicar em "Salvar" e a ação ser concluída, exibir a mensagem "Usuário registrado com sucesso" e, em seguida, retornar o aplicativo para a tela de login.
+
+
+2. Requisitos da Tela de Redefinição de Senha 
+
+
+Propósito: Permitir que o usuário defina uma nova senha.
+
+Campos Requeridos (Inputs):
+
+
+Senha (Nova Senha) 
+
+
+
+Confirmar Senha 
+
+
+Funcionalidades e Validações:
+
+
+Validação de Igualdade: Ao tentar submeter, se o conteúdo do campo "Senha" for diferente do conteúdo do campo "Confirmar Senha", a submissão deve ser bloqueada.
+
+Exibir a mensagem de erro 
+
+"Senhas não são iguais".
+
+
+Retornar o Foco para o primeiro campo de senha (o campo "Senha").
+
+
+
+Ação de Sucesso: Ao concluir a validação corretamente (senhas iguais), salvar a nova senha (simulação), exibir a mensagem "Senha redefinida com sucesso" e retornar à tela de login.
